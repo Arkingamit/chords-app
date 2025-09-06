@@ -11,7 +11,7 @@ export const mockGroups: Group[] = [
     createdAt: new Date().toISOString(),
     organizationId: '1', 
     members: ['1', '2'],
-    songs: ['1']
+    songs: ['1','2']
   },
   {
     id: '2',
@@ -21,7 +21,7 @@ export const mockGroups: Group[] = [
     createdAt: new Date().toISOString(),
     organizationId: '2',
     members: ['1', '2'],
-    songs: ['2']
+    songs: ['1','2']
   }
 ];
 
